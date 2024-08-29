@@ -1,0 +1,295 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+
+.card-container{
+    
+    flex-wrap: wrap;
+    
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-top: 20;
+  
+}
+
+.card{
+    background-color: #232323;
+    border-radius: 1rem;
+    height: 490px;
+    width: 400px;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    box-shadow: 1px 4px 10px #a722ea;
+}
+
+.card:hover{
+    box-shadow: 1px 4px 20px #a722ea95;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-title{
+    font-weight: 600;
+    background-color: #fff;
+}
+
+.card-info{
+    font-size: 0.75rem;
+    opacity: 0.8;
+
+}
+
+header {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-top: 20;
+}
+
+.search{
+    margin-right: 520px;
+}
+
+.div1{
+    width: 50%;
+    margin-left: 30px;
+
+}
+
+.imgInfo{
+    display: flex;
+   
+}
+
+
+.explore{
+    
+    padding-left: 600px;
+   
+}
+
+.searchBar{
+    width: 300px;
+    height: 35px;
+    padding: 8px 15px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+    transform: all 0.3s ease;
+}
+
+.searchBar:focus{
+    border-color: #a822ea80;
+    box-shadow: 0 0 5px #a822ea80;
+}
+
+.searchBut{
+    height: 35px;
+    padding: 0 20px;
+    margin-left: 10px;
+    background-color: #a722ea;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transform: background-color 0.3 ease;
+}
+
+.searchBut:hover{
+    background-color: #a722eaaa;
+    border-color: #232323;
+}
+
+.loginBTN{
+    background-color: #a722ea; /* Green background */
+  border: none; /* No border */
+  color: white; /* White text */
+  padding: 15px 20px; /* Padding */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* No underline */
+  display: inline-block; /* Make the button inline-block */
+  font-size: 16px; /* Increase font size */
+  margin: 10px 2px; /* Add some margin */
+  cursor: pointer; /* Pointer/hand icon on hover */
+  border-radius: 20px; /* Rounded corners */
+}
+
+
+
+.seeMore{
+    height: 35px;
+    padding: 0 20px;
+    margin-left: 10px;
+    background-color: #fff;
+    border-color: #a722ea;
+    color: #a722ea;
+    
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transform: background-color 0.3 ease;
+}
+
+
+.seeMore:hover{
+    background-color: #a722eaaa;
+    
+    color: #fff;
+}
+
+
+
+
+/* .logo{
+    width: 20px;
+    
+    
+} */
+
+/* CSS Reset - Normalize */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px; /* Base font size */
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: #222;
+}
+
+p {
+    margin-bottom: 1rem;
+    color: #666;
+}
+
+/* Buttons */
+button, .btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Form Styles */
+form {
+    margin-top: 2rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #444;
+}
+
+input[type="text"], input[type="email"], input[type="password"], select {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #fdfdfd;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, select:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+/* Cart and Checkout Styles */
+.cart-container, .checkout-container {
+    background-color: #fff;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+th, td {
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: 600;
+}
+
+td {
+    color: #555;
+}
+
+.total {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    .cart-container, .checkout-container {
+        padding: 1rem;
+    }
+
+    table {
+        font-size: 0.9rem;
+    }
+
+    th, td {
+        padding: 0.5rem;
+    }
+
+    .btn {
+        padding: 0.5rem 1rem;
+    }
+}
